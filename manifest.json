@@ -1,0 +1,9 @@
+{
+    "manifest version": 3,
+    "name": "M.A.D.E",
+    "version" : "0.1",
+    "description" : "M.A.D.E or MADE, the Market Asset Data Extraction, extract market data from the web and always keep and eye out for new opportunities",
+    "action" : {},
+    "default_locale" : "en",
+    "icons": {}
+}
