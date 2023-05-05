@@ -5,5 +5,8 @@
     "description" : "M.A.D.E or MADE, the Market Asset Data Extraction, extract market data from the web and always keep and eye out for new opportunities",
     "action" : {},
     "default_locale" : "en",
-    "icons": {}
+    "icons": {
+        "default_popup" : "hello.html",
+        "default_icon" : "Bull Logo.png"
+    }
 }
