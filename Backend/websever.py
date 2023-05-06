@@ -14,3 +14,5 @@ def process_text():
 
     # Return the processed text as a JSON response
     return {'processed_text': processed_text}
+
+print("Function runs successfully")
