@@ -3,8 +3,17 @@
     "name": "Sailboat",
     "version" : "0.2",
     "description" : "Sailboat, search through webpages and find information and new market data to always keep and eye out for new opportunities",
-    "action": {
-        "default_popup" : "hello.html",
-        "default_icon" : "Bull Logo.png"
-    }
+    "permissions": [
+        "tabs",
+        "nativeMessaging",
+        "activeTab"
+      ],
+
+
+    "content_scripts": [
+        {
+        "js": ["content.js"],
+        "matches": ["<all_urls>"]
+        }
+    ]
 }
